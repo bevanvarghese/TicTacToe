@@ -67,8 +67,8 @@ public class TicTacToeServer {
 	//Method name: checkForWinner()
 	//Description: Calls checkRows(), checkColumns() and checkDiagonals() to determine the winner (or a draw).
 	//             If player one wins, winner = 1.
-	//			   If player two wins, winner = 2.
-	//			   If it's a draw, winner = 3.
+	//	       If player two wins, winner = 2.
+	//	       If it's a draw, winner = 3.
 	void checkForWinner() {
 		checkRows();
 		checkColumns();
@@ -167,7 +167,7 @@ public class TicTacToeServer {
 	//Method name: sendToClients()
 	//Return type: String
 	//Description: Returns a string which will be broadcasted to the clients.
-	// 			   String format is: <values of the 9 board cells - 0 for empty/1 for X/2 for O><whoseMove><winner>
+	// 	       String format is: <values of the 9 board cells - 0 for empty/1 for X/2 for O><whoseMove><winner>
 	String sendToClients() {
 		String str = "";
 		for(int i=0; i<3;i++) {
