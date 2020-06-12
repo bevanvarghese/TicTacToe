@@ -16,7 +16,7 @@ javac TicTacToeServer.java
 java TicTacToeServer
 ```
 - For Player 1, navigate to the directory containing TicTacToeClient.java
-- Enter the following commands to set up the game for Player 1
+- Enter the following commands to set up the game for Player 1:
 ```
 javac TicTacToeClient.java
 java TicTacToeClient
