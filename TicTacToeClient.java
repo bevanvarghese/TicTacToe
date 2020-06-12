@@ -13,7 +13,7 @@ public class TicTacToeClient {
 	//int playNo - stores the player number of the client. 
 	//String n - stores the player name.
 	//String playersMove - stores the message to send to the server, indicating the player's move.
-	//					   Format: <player number><row to make the move in><column to make the move in>
+	//Format: <player number><row to make the move in><column to make the move in>
 	JMenuBar menu;
 	JMenu control, help;
 	JMenuItem exit, instructions;
