@@ -2,13 +2,13 @@
 A GUI-enabled online multiplayer rendition of the popular two-player game, Tic Tac Toe. Designed as an assignment for COMP2396: Object Oriented Programming & Java. Uses concepts such as OOP, multi-threading and sockets. 
 
 ### Running the game
-##### To run from an IDE
+#### To run from an IDE
 - Compile the files TicTacToeServer.java and TicTacToeClient.java
 - Run TicTacToeServer.java on the host machine
 - Run TicTacToeClient.java on Player 1's machine
 - Run TicTacToeClient.java on Player 2's machine
 
-##### To run from the terminal 
+#### To run from the terminal 
 - From the terminal, navigate to the directory containing  TicTacToeServer.java
 - Enter the following commands to set up the server
 ```
