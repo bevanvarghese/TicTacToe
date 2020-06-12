@@ -38,8 +38,8 @@ public class TicTacToeServer {
 	//Method name: makeMove()
 	//Parameter: String str 
 	//Description: Takes in str which is in the format - <playerNumber><row><column>.
-	//			   Checks if the particular move is valid, and makes it.
-	//			   Calls sendToClients() to update the broadcast message (to be sent to the clients).
+	//	       Checks if the particular move is valid, and makes it.
+	//    	       Calls sendToClients() to update the broadcast message (to be sent to the clients).
 	void makeMove(String str) {
 		if(numOfPlayers==2) {
 			int whichPlayer = Integer.parseInt(String.valueOf(str.charAt(0)));
